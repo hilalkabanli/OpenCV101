@@ -3,6 +3,7 @@ import cv2
 img = cv2.imread(".jpg")
 cv2.imshow("Output", img)
 cv2.waitKey(0)
+
 #show video
 cap = cv2.videocapture(".mp4")
 while true:
@@ -10,6 +11,7 @@ while true:
     cv2.imshow("video", imgv)
     if cv2.waitkey(1) & 0xff == ord('q'):
         break
+
 #open webcam
 webcam = cv2.VideoCapture(0)
 webcam.set(3, 640)
