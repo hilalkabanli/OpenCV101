@@ -1,10 +1,10 @@
 import cv2
 #image
-img = cv2.imread("Resources/gogh.jpg")
+img = cv2.imread(".jpg")
 cv2.imshow("Output", img)
 cv2.waitKey(0)
 #show video
-cap = cv2.videocapture("Resources/.mp4")
+cap = cv2.videocapture(".mp4")
 while true:
     success, imgv =cap.read()
     cv2.imshow("video", imgv)
