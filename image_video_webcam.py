@@ -6,7 +6,7 @@ cv2.waitKey(0)
 
 #show video
 cap = cv2.videocapture(".mp4")
-while true:
+while True:
     success, imgv =cap.read()
     cv2.imshow("video", imgv)
     if cv2.waitkey(1) & 0xff == ord('q'):
