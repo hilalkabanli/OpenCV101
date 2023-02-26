@@ -1,6 +1,6 @@
 import cv2
 
-img=cv2.imread("Resources/gogh.jpg")
+img=cv2.imread(".jpg")
 print(img.shape)
 
 imgResize=cv2.resize(img,(300,200))#width and then height
