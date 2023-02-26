@@ -4,7 +4,6 @@ img=cv2.imread("Resources/gogh.jpg")
 print(img.shape)
 
 imgResize=cv2.resize(img,(300,200))#width and then height
-
 cv2.imshow("resize",imgResize)
 
 #cropping
